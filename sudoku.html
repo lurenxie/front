@@ -1,12 +1,126 @@
 <html>
 <head>
-	<title>
-		sudoku!
-	</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+p.box11	{
+		width: 50px;
+		height: 50px;
+		padding: 5px 5px 0px 5px;
+		margin: 5px 5px 5px 5px;		
+		border-style: groove;
+		border-width: 5px 5px 5px 5px;
+		border-color: red blue;
+		float: left;
+	}
+
+p.box22 {
+		width: 50px;
+		height: 50px;
+		padding: 5px 5px 5px 5px;
+		margin: 5px 5px 5px 5px;		
+		border-style: groove;
+		border-width: 5px 5px 5px 5px;
+		border-color: red blue;
+		float: left;
+	}	
+
+p.box33 {
+		width: 50px;
+		height: 50px;
+		padding: 0px 5px 5px 5px;
+		margin: 5px 5px 5px 5px;		
+		border-style: groove;
+		border-width: 5px 5px 5px 5px;
+		border-color: red blue;
+		float: left;
+	}
+	
+div.box1 {
+		padding: 5px 5px 0px 5px;
+		margin: 5px 5px 0px 5px;
+		border-style: solid;
+		border-width: 5px 5px 0px 5px;
+		border-color: red blue transparent red;
+		float: left;
+		clear: both;
+	}
+
+div.box2 {
+		padding: 0px 5px 5px 5px;
+		margin: 0px 5px 0px 5px;
+		border-style: solid;
+		border-width: 5px 5px 5px 5px;
+		border-color: transparent blue transparent red;
+		float: left;
+		clear: both;
+	}
+
+div.box3 {
+		padding: 0px 5px 5px 5px;
+		margin: 0px 5px 5px 5px;
+		border-style: solid;
+		border-width: 0px 5px 5px 5px;
+		border-color: transparent blue red blue;
+		float: left;
+		clear: both;
+	}
+
+</style>
 </head>
+
 <body>
-	sudoku by css/html!
+
+<table border="1">
+
+<div class="box1">
+<p class="box11">top left corner</p>
+<p class="box11">up</p>
+<p class="box11">upper right</p>
+</div>
+
+<div class="box2">
+<p class="box22">left</p>
+<p class="box22">middle</p>
+<p class="box22">right</p>
+</div>
+
+<div class="box3">
+<p class="box33">left lower</p>
+<p class="box33">botton</p>
+<p class="box33">low right</p>
+</div>
+
+</table>
 
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
