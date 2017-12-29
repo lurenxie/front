@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,28 +7,76 @@
 			body {
 
 				 }
-			header {
-						background: #aaaaaa;
-						height: 150px;
-						padding-top: 10px;
-						padding-bottom:10px;
-				   }
-			div {
-					background: #456789;
-				}
-			.button_1   {
-							float: left;
+				header {
+							background: #aaaaaa;
+							height: 150px;
+							padding-top: 10px;
+							padding-bottom:10px;
+					   }
+					div {
+							background: #456789;
 						}
-						
-			.button_2   { 
-							float: left;
-							width: 300px;
+						.button_1   {
+										float: left;
+									}
+									
+						.button_2   { 
+										float: left;
+										width: 300px;
+									}
+									
+						.button_3   {
+										float:right;
+									}
+				
+			.form_1     {
+							height: 250px;
 						}
-						
-			.button_3   {
-							float:right;
+
+				.box_1      {
+								width: 300px;
+								height: 100px;
+								margin: 0 auto;
+				 			}
+
+					.images_1 	{
+									float: left;
+								}
+
+					.nameinput_1{
+									float: left;
+									margin: 20px;
+								}
+	  			.box_2 		{
+								width: 300px;
+								height: 100px;
+								margin: 0 auto;
+	  						}
+
+					.images_2   {
+									float: left;
+									clear: left;
+								}
+
+					.nameinput_2{
+									float: left;
+									clear: right;
+									margin: 20px;
+								}	
+
+				.submit_1   {
+								width: 50px;
+								height: 50px;
+								margin: 0 auto;
+				            }
+				    .submit_2	{
+									float: left;
+									clear: left;
+								} 
+			.button_4	{
+							float: right; 
 						}
-						
+
 		</style>
 
 	</head>
@@ -52,30 +101,44 @@
 				</div>
 			</header>
 			
-			<form>
-				<div>
-					<img src="images/login_4">
+			<form class="form_1">
+				<div class="box_1">
+					<div class="images_1">
+						<img src="images/login_4.png">
+					</div>
+					
+					<div class="nameinput_1">	
+						<input type="text" name"username">
+					</div>
 				</div>
-				
-				<input type="text" name"username">
-				
-				<br>
+
+				<div class="box_2">
+					<div class="images_2">
+						<img src="images/login_5.png">
+					</div>
+					
+					<div class="nameinput_2">
+						<input type="passwor" name"psw">
+					</div>
+				</div>	
 				
 				<div>
-					<img src="images/login_5">
+					<div class="submit_1">
+						<div class="submit_2">
+							<input type="submit" value="登陆">
+						</div>
+					</div>
 				</div>
-				
-				<input type="passwor" name"psw">
-			</form>
-			
-			<form>
-				<>
-			</form>
-			
+			</form>		
+
+			<div class="button_4">
+				<a href="">
+					<button><img src="images/login_7.png"></button>
+				</a>
+			</div>	
 		</article>
 	</body>
 </html>
-
 
 
 
