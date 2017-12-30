@@ -6,12 +6,29 @@
 		<style type="text/css">
 			body {
 
-				 }
+				 }				
+					.div_header {
+									height: 100px;
+									position: relative;
+									z-index: 5;
+									
+								}
+								
+							.button_2   { 
+											width: 69px;
+											margin: 0 auto;											
+										}	
+								.button_21 {
+												border: 0;
+												padding: 0px;
+											}					
+							
 				header {
 							background: #aaaaaa;
 							height: 150px;
 							padding-top: 10px;
 							padding-bottom:10px;
+							position: relative;
 					   }
 					div {
 							background: #456789;
@@ -19,15 +36,15 @@
 						.button_1   {
 										float: left;
 									}
-									
-						.button_2   { 
-										float: left;
-										width: 300px;
-									}
+							.button_11  {
+											position: relative;
+											-top: 50px;
+										}
 									
 						.button_3   {
 										float:right;
 									}
+
 				
 			.form_1     {
 							height: 250px;
@@ -83,20 +100,28 @@
 
 	<body>
 		<article>
+			<div class="div_header">
+				<div class="button_2">
+					<a href="">
+						<button class="button_21"><img src="images/login_2.png"></button>
+					</a>
+				</div>
+			</div>
+			
 			<header>
 				<div class="button_1">
 					<a href="">
-						<button><img src="images/login_1.png"></button>
+						<button class="button_11"><img src="images/login_1.png"></button>
 					</a>
 				</div>
-				<div class="button_2">
+<!-- 				<div class="button_2">
 					<a href="">
 						<button class="button_2.1"><img src="images/login_2.png"></button>
 					</a>
-				</div>
+				</div> -->
 				<div class="button_3">
 					<a href="">
-						<button><img src="images/login_3.png"></button>
+						<button class="button_33"><img src="images/login_3.png"></button>
 					</a>
 				</div>
 			</header>
