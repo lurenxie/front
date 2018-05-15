@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+}
+nav {
+	height: 50px;
+	width: 950px;
+	margin: 0 auto;
+}
+.logo {
+	width: 72px;
+    height: 25px;
+    display: block;
+    float: left;
+    margin-right: 60px;
+    margin: 12px 60px 13px 0;
+}
+nav div a {
+	width: 110px;
+    line-height: 50px;
+    text-align: center;
+    display: inline-block;
+    color: #555;
+    font-size: 14px;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+}
+nav div a span {
+/*	border-bottom: 2px solid #ff2741;
+    padding-bottom: 3px;*/
+}
+#menu_nav {
+	overflow: hidden;
+    height: 50px;
+    float: left;
+}
+#search_nav {
+	float: right;
+    position: relative;
+    height: 50px;
+    line-height: 50px;
+}
+nav div input {
+	display: inline-block;
+    outline: none;
+    width: 191px;
+    height: 24px;
+    line-height: 19px;
+    line-height: 24px\0;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    padding: 2px 10px;
+    padding-right: 32px;
+    font-size: 13px;
+    background-color: #e6e6e6;
+}
