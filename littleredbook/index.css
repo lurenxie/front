@@ -146,4 +146,60 @@ main div div div a {
 #red_item {
     height: 600px;
     background: #ff2741;
+    color: #fff;
+}
+#red_item_box {
+    font-size: 20px;
+    color: #fff;
+    margin: 0 auto;
+    width: 940px;
+}
+#red_left {
+    float: left;
+    height: 321px;
+}
+.red_left_box {
+    overflow: hidden;
+    margin: 47px 0;
+    cursor: pointer;
+}
+.red_num {  
+    display: block;
+    float: left;
+    margin: 16px;
+    clear: left;
+    font-size: 20px;
+}
+.red_box {
+    float: left;
+    font-size: 16px;
+}
+.red_box span {
+    display: block;
+    clear: left;
+}
+#pg1 {
+    height: 2px;
+    display: block;
+}
+#pg2 {
+    height: 2px;
+    display: block;
+}
+#pg3 {
+    height: 2px;
+    display: block;
+}
+#red_right {
+    display: block;
+    background-size: contain;
+    float: right;
+}
+#red_right2 {
+    position: relative;
+} 
+#red_right3 {
+    position: absolute;
+    top: -85px;
+    right: 20px;
 }

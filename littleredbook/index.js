@@ -2,7 +2,7 @@
 * @Author: Ding Jianlong
 * @Date:   2018-05-16 08:59:57
 * @Last Modified by:   Ding Jianlong
-* @Last Modified time: 2018-05-16 10:09:52
+* @Last Modified time: 2018-05-16 16:36:22
 */
 function body_main() {
 	// alert("断点");
@@ -33,5 +33,30 @@ function body_main() {
 		i++;
 		if (i == 18) { i = 0 ; }
 	}
-	setInterval(title_auto_js,250);
+
+	var m = 0;
+	var pg1=document.getElementById('pg1');
+	function pg_auto() { 
+		if(pg1.value!=100) 
+			pg1.value++; 
+		else 
+			pg1.value=0;
+		document.getElementById('red_att').style.fontSize = '50px';
+		document.getElementById('red_att').style.fontWeight = 'bold';
+		document.getElementById('pg1').style.width = '280px';
+	}
+	setInterval(pg_auto,15);
+	
+
+
+
+
+
+
+
+
+	
+	setInterval(title_auto_js,300);
 }
+
+
