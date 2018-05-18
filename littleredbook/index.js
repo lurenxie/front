@@ -2,7 +2,7 @@
 * @Author: Ding Jianlong
 * @Date:   2018-05-16 08:59:57
 * @Last Modified by:   Ding Jianlong
-* @Last Modified time: 2018-05-16 16:36:22
+* @Last Modified time: 2018-05-17 08:38:47
 */
 function body_main() {
 	// alert("断点");
@@ -46,16 +46,7 @@ function body_main() {
 		document.getElementById('pg1').style.width = '280px';
 	}
 	setInterval(pg_auto,15);
-	
-
-
-
-
-
-
-
-
-	
+ 
 	setInterval(title_auto_js,300);
 }
 
